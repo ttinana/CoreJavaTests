@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.tijana.ThirtyDaysChallenge.hourglass;
+package com.tijana.java7.collections;
 
 import java.util.Scanner;
 
