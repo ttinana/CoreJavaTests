@@ -13,11 +13,12 @@ import java.io.RandomAccessFile;
 public class Person {
 
 	public static void main(String[] args) throws IOException {
-		System.out.println(System.getProperty("java.version"));
+		System.out.println("Java version: " + System.getProperty("java.version"));
+		System.out.println("");
 
 		RandomAccessFile input = new RandomAccessFile("src\\main\\resorces\\person.txt", "rw");
 		Person person2 = read(input);
-		System.out.println(person2.toString());
+		//System.out.println(person2.toString());
 
 		DataInputStream stream = new DataInputStream(new FileInputStream("src\\main\\resorces\\person.txt"));
 		Person person = read(stream);
